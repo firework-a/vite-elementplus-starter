@@ -1,0 +1,78 @@
+# 开发环境
+.DS_Store
+.vscode
+.idea
+*.local
+.env
+.env.*
+!*.env.example
+.venv
+
+# 依赖目录
+node_modules/
+jspm_packages/
+bower_components/
+web_modules/
+.pnpm-debug.log
+
+# 构建输出
+dist/
+dist-ssr/
+.vite-ssg-temp/
+.out/
+.next/
+.nuxt/
+.serverless/
+.vuepress/dist/
+
+# 缓存文件
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_*/
+.fusebox/
+.nyc_output/
+.grunt/
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.*.json
+
+# 锁文件
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+shrinkwrap.json
+
+# 测试覆盖率
+coverage/
+*.lcov
+
+# 调试文件
+*.pid
+*.seed
+*.pid.lock
+pids/
+
+# 类型声明缓存
+*.tsbuildinfo
+
+# 包文件
+*.tgz
+.yarn-integrity
+
+# 系统文件
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# 其他
+lib-cov/
+*.swp
+*.swo
+*~
+~$*
