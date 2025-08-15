@@ -27,7 +27,7 @@ function handleLogout() {
     <el-menu-item index="/">
       <div class="flex items-center justify-center gap-2">
         <div class="text-xl" i-ep-element-plus />
-        <span>商品信息管理后台</span>
+        <span>后台管理系统</span>
       </div>
     </el-menu-item>
 

@@ -1,12 +1,12 @@
 {
-  "name": "mall-b-frontend",
+  "name": "vite-elementplus-starter",
   "type": "module",
   "version": "0.1.0",
-  "private": true,
   "packageManager": "pnpm@10.14.0",
+  "author": "firework-a",
   "license": "MIT",
   "repository": {
-    "url": "https://gitee.com/ydapi_admin/mall-b-frontend"
+    "url": "https://github.com/firework-a/vite-elementplus-starter"
   },
   "scripts": {
     "dev": "vite",

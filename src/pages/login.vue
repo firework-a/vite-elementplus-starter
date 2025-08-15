@@ -134,7 +134,7 @@ async function handleLogin() {
       </el-form>
 
       <div class="login-footer">
-        <p>© {{ new Date().getFullYear() }} 商城管理系统</p>
+        <p>© {{ new Date().getFullYear() }} 后台管理系统</p>
       </div>
     </div>
   </div>

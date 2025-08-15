@@ -20,9 +20,10 @@ declare module 'vue-router/auto-routes' {
   export interface RouteNamedMap {
     'notFound': RouteRecordInfo<'notFound', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
     'login': RouteRecordInfo<'login', '/login', Record<never, never>, Record<never, never>>,
-    '/manage': RouteRecordInfo<'/manage', '/manage', Record<never, never>, Record<never, never>, 'manage' | 'noticeCategoryManage' | 'noticeManage'>,
+    '/manage': RouteRecordInfo<'/manage', '/manage', Record<never, never>, Record<never, never>, '/manage/redirect/[...path]' | 'manage' | 'noticeCategoryManage' | 'noticeManage'>,
     'manage': RouteRecordInfo<'manage', '/manage', Record<never, never>, Record<never, never>>,
     'noticeManage': RouteRecordInfo<'noticeManage', '/manage/notice', Record<never, never>, Record<never, never>>,
     'noticeCategoryManage': RouteRecordInfo<'noticeCategoryManage', '/manage/notice/category', Record<never, never>, Record<never, never>>,
+    '/manage/redirect/[...path]': RouteRecordInfo<'/manage/redirect/[...path]', '/manage/redirect/:path(.*)', { path: ParamValue<true> }, { path: ParamValue<false> }>,
   }
 }
